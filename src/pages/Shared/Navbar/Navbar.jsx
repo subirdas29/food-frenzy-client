@@ -16,9 +16,9 @@ const Navbar = () => {
       <li><a>Item 3</a></li>
     </>
   return (
-    <div>
-      <div className="navbar bg-base-100">
-  <div className="navbar-start">
+    <div >
+      <div className="navbar fixed z-10 bg-opacity-30 bg-black text-white ">
+  <div className="navbar-start ">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg
@@ -40,15 +40,15 @@ const Navbar = () => {
        {navOptions}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="btn btn-ghost text-xl ml-10">Food Frenzy</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
      {navOptions}
     </ul>
   </div>
-  <div className="navbar-end">
-    <a className="btn">Button</a>
+  <div className="navbar-end mr-10">
+    <a className="btn btn-neutral">Button</a>
   </div>
 </div>
     </div>
